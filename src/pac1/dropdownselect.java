@@ -15,6 +15,7 @@ public static void main (String args[]) throws InterruptedException
 		driver.get("https://team-scale.com/testo/references/ajax/");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("manufacture"));
+		System.out.println("Hi");
 		Thread.sleep(2000);
 	}
 	

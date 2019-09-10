@@ -14,7 +14,7 @@ public static void main (String args[]) throws InterruptedException
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://team-scale.com/testo/references/ajax/");
 		driver.manage().window().maximize();
-		//select dd=driver.findElement(By.id("manufacture"));
+		driver.findElement(By.id("manufacture"));
 		Thread.sleep(2000);
 	}
 	
